@@ -14,7 +14,7 @@ const links = [
     label: 'LinkedIn',
   },
   // {
-  //   href: 'https://instagram.com/deepakmodi.io',
+  //   href: '',
   //   icon: <Instagram className="w-6 h-6 text-[#E1306C]" />,
   //   label: 'Instagram',
   // },
