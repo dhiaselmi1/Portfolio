@@ -66,9 +66,9 @@ export function Footer() {
 
           {/* Views Counter */}
           <div className="flex justify-center">
-            <a href="https://hits.sh/deepakmodi.tech/" target="_blank" rel="noopener noreferrer">
+            <a href="https://hits.sh/mohamed-dhia-selmi.vercel.app/" target="_blank" rel="noopener noreferrer">
               <img
-                src="https://hits.sh/deepakmodi.tech.svg?style=for-the-badge&label=Views&color=2a6acf&labelColor=1f2937"
+                src="https://hits.sh/mohamed-dhia-selmi.vercel.app.svg?style=for-the-badge&label=Views&color=2a6acf&labelColor=1f2937"
                 alt="Views"
                 className="rounded-lg"
               />
