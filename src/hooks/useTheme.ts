@@ -6,7 +6,8 @@ export function useTheme() {
     if (savedTheme) {
       return savedTheme === 'dark';
     }
-    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+    // Default to light mode instead of system preference
+    return false;
   });
 
   const updateTheme = useCallback((dark: boolean) => {
