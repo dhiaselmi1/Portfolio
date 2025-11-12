@@ -113,8 +113,8 @@ const projects = [
     title: '🌍 HikeExplorer ',
     description: 'A modern showcase platform that allows users to discover hiking agencies, explore upcoming events, and book experiences online. It offers an intuitive and responsive interface with dynamic content, detailed event pages, and secure payments via PayPal. Designed to enhance visibility for partner agencies, it provides travelers with a smooth, engaging experience for planning their next adventure.',
     video: 'https://res.cloudinary.com/dwnt1faqs/video/upload/site-vitrine_u0ackr.mkv',
-    // link: 'https://deepakmodi.vercel.app',
     github: 'https://github.com/dhiaselmi1/trailfinder-app',
+    videoThumbnail: '/assets/vitrine.png',
     category: 'Web Apps' as ProjectCategory,
     techStack: [
       techStacks.angular,
@@ -129,6 +129,8 @@ const projects = [
     description: 'An advanced back-office system built to manage all platform operations efficiently. It allows administrators and agencies to oversee users, events, and reservations through a secure, role-based dashboard with real-time analytics. With its intuitive interface and comprehensive management tools, HikeManager ensures smooth coordination and transparent control across the hiking ecosystem.',
     video: 'https://www.dropbox.com/scl/fi/1yw4f9f4u955a9mkdwbws/backoffice.mp4?rlkey=c64ymue7qhz36nygoc8wt0yd2&st=1sc7l7gl&raw=1',
     github: 'https://vimeo.com/1135881415?share=copy&fl=sv&fe=ci',
+    videoThumbnail: '/assets/backoffice.png',
+
     category: 'Web Apps' as ProjectCategory,
     techStack: [
       techStacks.angular,
@@ -144,7 +146,6 @@ const projects = [
     description: 'This  application is designed for agencies to facilitate on-site event management. It allows staff to authenticate securely, view event details, and verify participant tickets by scanning QR codes linked to the central reservation database. Lightweight and practical, the app enhances operational efficiency during events, ensuring accurate validation and seamless coordination between agencies and participants.',
     video: 'https://trzzhogdlmdumpdkazyu.supabase.co/storage/v1/object/sign/videos/mobile_app.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8xNzg5MzlmYi0wNmZlLTQ2YzItOGZkZS1iMGI1YmIxODhjZDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ2aWRlb3MvbW9iaWxlX2FwcC5tcDQiLCJpYXQiOjE3NjI4OTEwMTgsImV4cCI6MTg1NzQ5OTAxOH0.KlWAmBUEi5BHsEu46TEO8hm5qNpkpO0s3dx_iRxufcg',
 
-    // github: 'https://github.com/decodewithdeepak/placify',
     category: 'Mobile Apps' as ProjectCategory,
     techStack: [
       techStacks.ionic,

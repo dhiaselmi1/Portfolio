@@ -56,17 +56,23 @@ export function About() {
           {/* Introduction */}
           <div className="max-w-5xl mx-auto mb-10 text-center">
             <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              Hey there! 👋 I'm <span className="text-blue-600 font-semibold">Mohamed Dhia Selmi</span>,
-              a Software Engineering student at the Higher Institute of Computer Science (ISI Ariana).
+              Hello! 👋 I'm <span className="text-blue-600 font-semibold">Mohamed Dhia Selmi</span>,
+              a Software Engineering student at the Higher Institute of Computer Science (ISI Ariana),
+              driven by a passion for building meaningful, data-driven, and scalable digital solutions.
 
-              I’m deeply curious about how technology shapes the world, with a particular interest in artificial intelligence, emerging tech, and the way innovation can solve real-life challenges. Outside of coding, I enjoy sports as a way to keep balance and stay energized, while always keeping an eye on the latest trends in AI, new tools, and digital innovation.
+              I love designing systems that go beyond code — products that blend logic, creativity, and real impact.
+              From optimizing exam scheduling with algorithmic precision to creating intelligent assistants and automation platforms,
+              I’m always seeking challenges where technology meets purpose.
 
-              For me, learning is about constant exploration—whether that’s experimenting with new technologies, following breakthroughs in AI, or pushing myself both mentally and physically.
+              My journey has been defined by curiosity and perseverance — from average beginnings to graduating top of my class,
+              winning hackathons, and turning complex problems into elegant solutions.
+              Outside of tech, I stay active through sports and enjoy exploring how emerging technologies
+              like AI and automation are reshaping industries.
             </p>
             <div className="mt-6 flex justify-center">
-              <span className="text-sm sm:text-base inline-block bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 px-4 py-2 rounded-lg shadow">
-               🚀 I turn ideas into projects and projects into impact.
-              </span>
+    <span className="text-sm sm:text-base inline-block bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 px-4 py-2 rounded-lg shadow">
+🚀 I turn ideas into projects and projects into impact.
+    </span>
             </div>
           </div>
 
