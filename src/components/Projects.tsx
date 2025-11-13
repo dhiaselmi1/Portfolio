@@ -60,30 +60,19 @@ const techStacks = {
 };
 
 // Define project categories
-type ProjectCategory = 'All' | 'Web Apps' | 'AI Based' | 'Desktop Apps' | 'Mobile Apps';
+type ProjectCategory = 'Highlights' | 'Web Apps' | 'AI Based' | 'Desktop Apps' | 'Mobile Apps';
 
 // Define projects data
 const projects = [
-  {
-    title: 'Exam Monitoring System',
-    description: 'A smart desktop application developed in collaboration with the Higher Institute of Computer Science to automate teacher assignments for exam invigilation. It ensures fair workload distribution, respects availability constraints, and generates detailed, exportable schedules through an intuitive and modernn interface.',
-    video: 'https://res.cloudinary.com/dwnt1faqs/video/upload/isi_lkzg5b.mp4',
-    link: '',
-    github: 'https://github.com/dhiaselmi1/Exam-Monitoring-ISI',
-    category: 'Desktop Apps' as ProjectCategory,
-    techStack: [
-      techStacks.react,
-      techStacks.typescript,
-      techStacks.electron,
-      techStacks.python,
-    ],
-  },
+
   {
     title: 'Date2Deal',
     description: 'An AI-driven sales prospecting platform developed during Talan  Summer  Camp to revolutionize sales prospecting through AI. It automatically identifies key decision-makers, analyzes company data, and generates personalized  messages to optimize engagement and conversion.It  automates lead research, and builds stronger client relationships.',
     video: 'https://trzzhogdlmdumpdkazyu.supabase.co/storage/v1/object/sign/videos/date2deal.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8xNzg5MzlmYi0wNmZlLTQ2YzItOGZkZS1iMGI1YmIxODhjZDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ2aWRlb3MvZGF0ZTJkZWFsLm1wNCIsImlhdCI6MTc2Mjg5MDY3MiwiZXhwIjoxODU3NDk4NjcyfQ.FUdXEkr9mqXgaRYwcdKWcSJkuGbGuhboLHWKiON8ggw',
     link: '',
     github: 'https://github.com/dhiaselmi1/Date2Deal',
+    videoThumbnail: '/assets/Date.png',
+
     category: 'AI Based' as ProjectCategory,
     techStack: [
       techStacks.react,
@@ -95,11 +84,10 @@ const projects = [
   {
     title: 'ISI Chatbot',
     description: 'A smart conversational assistant developed during a hackathon with ISI and Talan, winning first place. Powered by  LLMs, it connects to the institute’s database to answer questions, generate administrative documents, and automate tasks. With voice interaction and an animated avatar, it offers a human-like experience that improves administrative efficiency.',
-    // image: '/assets/neocompiler.webp',
-    // link: 'https://neocompiler.vercel.app',
-    video: 'https://trzzhogdlmdumpdkazyu.supabase.co/storage/v1/object/sign/videos/hackathon_talan.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8xNzg5MzlmYi0wNmZlLTQ2YzItOGZkZS1iMGI1YmIxODhjZDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ2aWRlb3MvaGFja2F0aG9uX3RhbGFuLm1wNCIsImlhdCI6MTc2Mjg5MDk2OCwiZXhwIjoxODI1OTYyOTY4fQ.LEsfP0vPzojtLVMWpibHCBlk0SrrW25SuKBEQUwjorE',
 
-    // github: 'https://github.com/decodewithdeepak/neo-compiler',
+    video: 'https://trzzhogdlmdumpdkazyu.supabase.co/storage/v1/object/sign/videos/hackathon_talan.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8xNzg5MzlmYi0wNmZlLTQ2YzItOGZkZS1iMGI1YmIxODhjZDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ2aWRlb3MvaGFja2F0aG9uX3RhbGFuLm1wNCIsImlhdCI6MTc2Mjg5MDk2OCwiZXhwIjoxODI1OTYyOTY4fQ.LEsfP0vPzojtLVMWpibHCBlk0SrrW25SuKBEQUwjorE',
+    videoThumbnail: '/assets/chatbot.png',
+
     category: 'AI Based' as ProjectCategory,
     techStack: [
       techStacks.python,
@@ -107,6 +95,22 @@ const projects = [
       techStacks.postgresql,
       techStacks.langfuse,
 
+    ],
+  },
+  {
+    title: 'Exam Monitoring System',
+    description: 'A smart desktop application developed in collaboration with the Higher Institute of Computer Science to automate teacher assignments for exam invigilation. It ensures fair workload distribution, respects availability constraints, and generates detailed, exportable schedules through an intuitive and modernn interface.',
+    video: 'https://res.cloudinary.com/dwnt1faqs/video/upload/isi_lkzg5b.mp4',
+    link: '',
+    videoThumbnail: '/assets/isi_surv.png',
+
+    github: 'https://github.com/dhiaselmi1/Exam-Monitoring-ISI',
+    category: 'Desktop Apps' as ProjectCategory,
+    techStack: [
+      techStacks.react,
+      techStacks.typescript,
+      techStacks.electron,
+      techStacks.python,
     ],
   },
   {
@@ -145,6 +149,7 @@ const projects = [
     title: '📱 HikeGo',
     description: 'This  application is designed for agencies to facilitate on-site event management. It allows staff to authenticate securely, view event details, and verify participant tickets by scanning QR codes linked to the central reservation database. Lightweight and practical, the app enhances operational efficiency during events, ensuring accurate validation and seamless coordination between agencies and participants.',
     video: 'https://trzzhogdlmdumpdkazyu.supabase.co/storage/v1/object/sign/videos/mobile_app.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8xNzg5MzlmYi0wNmZlLTQ2YzItOGZkZS1iMGI1YmIxODhjZDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ2aWRlb3MvbW9iaWxlX2FwcC5tcDQiLCJpYXQiOjE3NjI4OTEwMTgsImV4cCI6MTg1NzQ5OTAxOH0.KlWAmBUEi5BHsEu46TEO8hm5qNpkpO0s3dx_iRxufcg',
+    videoThumbnail: '/assets/mobile.png',
 
     category: 'Mobile Apps' as ProjectCategory,
     techStack: [
@@ -159,6 +164,7 @@ const projects = [
     description: 'A purpose-built platform crafted for a forward-looking startup to streamline and transform their service offering. It empowers users to seamlessly discover, connect with, and engage in curated experiences with partner organizations. With a focus on both scalability and user-centric design, ECOCLICKO provides real-time exploration of options and a smooth end-to-end journey from discovery through confirmation.',
     github: 'https://github.com/dhiaselmi1/ECOCLICKO',
     video: 'https://res.cloudinary.com/dwnt1faqs/video/upload/ecoclicko_b0vhfo.mp4',
+    videoThumbnail: '/assets/ecok.png',
 
     category: 'Web Apps' as ProjectCategory,
     techStack: [
@@ -197,13 +203,13 @@ const projects = [
   },
 ];
 
-const categories: ProjectCategory[] = ['All', 'Web Apps', 'AI Based', 'Desktop Apps', 'Mobile Apps'];
+const categories: ProjectCategory[] = ['Highlights', 'Web Apps', 'AI Based', 'Desktop Apps', 'Mobile Apps'];
 
 export function Projects() {
-  const [selectedCategory, setSelectedCategory] = useState<ProjectCategory>('All');
+  const [selectedCategory, setSelectedCategory] = useState<ProjectCategory>('Highlights');
 
-  const filteredProjects = selectedCategory === 'All'
-    ? projects
+  const filteredProjects = selectedCategory === 'Highlights'
+    ? projects.slice(0, 3)
     : projects.filter(project => project.category === selectedCategory);
 
   return (<SectionBackground>
