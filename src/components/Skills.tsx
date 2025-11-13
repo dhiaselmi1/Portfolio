@@ -2,31 +2,22 @@ import { SectionTitle } from "./ui/SectionTitle";
 import { SectionBackground } from "./ui/SectionBackground";
 import { SkillCard } from "./ui/SkillCard";
 import {
-  SiHtml5,
+
   SiCss3,
   SiJavascript,
   SiTypescript,
   SiReact,
-  SiNextdotjs,
-  SiTailwindcss,
-  SiRedux,
-  SiExpress,
-  SiGraphql,
-  SiMongodb,
-  SiPrisma,
   SiCplusplus,
   SiGit,
   SiGithub,
   SiPostman,
-  SiVite,
   SiVercel,
   SiAngular,
   SiSpringboot,
-  SiSpring,
   SiFastapi,
   SiStreamlit,
   SiOllama,
-  SiCpanel,
+  SiLangchain,
   SiPostgresql,
   SiOracle,
   SiSqlite,
@@ -41,7 +32,8 @@ const skills = [
   { name: "Ollama", icon: SiOllama, color: "#", url: "https://ollama.com" },
   { name: "Openai", icon: SiOpenai, color: "#", url: "https://openai.com" },
   { name: "Gemini", icon: SiGooglegemini, color: "#646cff", url: "gemini.google.com" },
-  { name: "N8N", icon: SiN8N, color: "#DE5D17", url: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
+  { name: "Langchain", icon: SiLangchain, color: "#1C3C3C", url: "https://www.langchain.com" },
+  { name: "N8N", icon: SiN8N, color: "#DE5D17", url: "https://www.n8n.io" },
   { name: "Java", icon: FaJava, color: "#f7b731", url: "https://www.java.com/" },
   { name: "Springboot", icon: SiSpringboot, color: "#6DB33F", url: "https://spring.io/projects/spring-boot/" },
   { name: "Angular", icon: SiAngular, color: "#c3002f", url: "https://angular.dev" },
@@ -60,7 +52,6 @@ const skills = [
   { name: "GitHub", icon: SiGithub, color: "# ", url: "https://github.com/" },
   { name: "Postman", icon: SiPostman, color: "#ff6c37", url: "https://www.postman.com/" },
   { name: "Vercel", icon: SiVercel, color: "#", url: "https://vercel.com/" },
-  { name: "CSS", icon: SiCss3, color: "#1572b6", url: "https://developer.mozilla.org/en-US/docs/Web/CSS" },
 
 ];
 
