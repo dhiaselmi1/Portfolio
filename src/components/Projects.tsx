@@ -100,7 +100,7 @@ const projects = [
   {
     title: 'Exam Monitoring System',
     description: 'A smart desktop application developed in collaboration with the Higher Institute of Computer Science to automate teacher assignments for exam invigilation. It ensures fair workload distribution, respects availability constraints, and generates detailed, exportable schedules through an intuitive and modernn interface.',
-    video: 'https://res.cloudinary.com/dwnt1faqs/video/upload/isi_lkzg5b.mp4',
+    video: 'https://res.cloudinary.com/dwnt1faqs/video/upload/Untitled_2_b542aj.mp4',
     link: '',
     videoThumbnail: '/assets/isi_surv.png',
 
