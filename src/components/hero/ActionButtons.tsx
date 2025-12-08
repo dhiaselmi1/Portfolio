@@ -6,7 +6,7 @@ export function ActionButtons() {
   return (
     <div className="flex flex-wrap gap-4 justify-center">
       <a
-        href="https://trzzhogdlmdumpdkazyu.supabase.co/storage/v1/object/sign/cv/Mohamed%20dhia%20selmi%20(2).pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8xNzg5MzlmYi0wNmZlLTQ2YzItOGZkZS1iMGI1YmIxODhjZDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJjdi9Nb2hhbWVkIGRoaWEgc2VsbWkgKDIpLnBkZiIsImlhdCI6MTc2Mjk1NzAyNywiZXhwIjoxODU3NTY1MDI3fQ.siyOIvK0033bdoFQPODT3iF8QLB-FoJkGVv076_lAIM"
+        href="https://trzzhogdlmdumpdkazyu.supabase.co/storage/v1/object/sign/cv/Mohamed%20dhia%20selmi.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8xNzg5MzlmYi0wNmZlLTQ2YzItOGZkZS1iMGI1YmIxODhjZDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJjdi9Nb2hhbWVkIGRoaWEgc2VsbWkucGRmIiwiaWF0IjoxNzY1MTg5OTEyLCJleHAiOjE4MjgyNjE5MTJ9.CG0HGgOqkI_a1JpBTf1iUP8NnPKAnwGLTcvY5DOYcP8"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center gap-2 px-3 py-2 rounded-md text-sm sm:text-base bg-blue-600 text-white hover:bg-blue-700 transition-transform duration-300 transform hover:scale-105"
