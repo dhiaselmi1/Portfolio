@@ -36,11 +36,11 @@ const certifications = [
     image: "/Certifications/AI.png",
   },
   {
-    title: "Mastering AI Agents Bootcamp: Build Smart Chatbots & Tools",
-    issuer: "Udemy",
-    date: "Jul 2025",
-    link: "https://www.udemy.com/certificate/UC-a2353d5e-c306-4bb3-ac79-042255cab256/",
-    image: "https://udemy-certificate.s3.amazonaws.com/image/UC-a2353d5e-c306-4bb3-ac79-042255cab256.jpg",
+    title: "CDOSS Artificial Intelligence and Machine Learning Fundamentals",
+    issuer: "CDOSS",
+    date: "Dec 2025",
+    link: "https://cdoss.org/selmi-mohamed-dhia/",
+    image: "/Certifications/CDOSS0.jpg",
   },
   {
     title: "CDOSS Python for Data Science",
