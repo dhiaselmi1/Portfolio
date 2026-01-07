@@ -7,7 +7,15 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const certifications = [
-  {
+
+
+    {
+        title: "CDOSS Artificial Intelligence and Machine Learning Fundamentals",
+        issuer: "CDOSS",
+        date: "Dec 2025",
+        link: "https://cdoss.org/selmi-mohamed-dhia/",
+        image: "/Certifications/CDOSS0.jpg",
+    }, {
     title: "Oracle Cloud Infrastructure Generative AI Professional",
     issuer: "Oracle",
     date: "Oct 2025",
@@ -35,13 +43,7 @@ const certifications = [
     link: "https://badgr.com/public/assertions/I8VZ0VdBRp2X_NQPH7jYLg?identity__email=Mohameddhiaselmii%40gmail.com",
     image: "/Certifications/AI.png",
   },
-  {
-    title: "CDOSS Artificial Intelligence and Machine Learning Fundamentals",
-    issuer: "CDOSS",
-    date: "Dec 2025",
-    link: "https://cdoss.org/selmi-mohamed-dhia/",
-    image: "/Certifications/CDOSS0.jpg",
-  },
+
   {
     title: "CDOSS Python for Data Science",
     issuer: "CDOSS",
