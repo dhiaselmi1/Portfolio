@@ -68,7 +68,7 @@ const projects = [
   {
     title: 'Date2Deal',
     description: 'An AI-driven sales prospecting platform developed during Talan  Summer  Camp to revolutionize sales prospecting through AI. It automatically identifies key decision-makers, analyzes company data, and generates personalized  messages to optimize engagement and conversion.It  automates lead research, and builds stronger client relationships.',
-    video: 'https://trzzhogdlmdumpdkazyu.supabase.co/storage/v1/object/sign/videos/date2deal.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8xNzg5MzlmYi0wNmZlLTQ2YzItOGZkZS1iMGI1YmIxODhjZDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ2aWRlb3MvZGF0ZTJkZWFsLm1wNCIsImlhdCI6MTc2Mjg5MDY3MiwiZXhwIjoxODU3NDk4NjcyfQ.FUdXEkr9mqXgaRYwcdKWcSJkuGbGuhboLHWKiON8ggw',
+    video: 'https://res.cloudinary.com/dwnt1faqs/video/upload/date2deal_bia4fz.mp4',
     link: '',
     github: 'https://github.com/dhiaselmi1/Date2Deal',
     videoThumbnail: '/assets/Date.png',
@@ -85,7 +85,7 @@ const projects = [
     title: 'ISI Chatbot',
     description: 'A smart conversational assistant developed during a hackathon with ISI and Talan, winning first place. Powered by  LLMs, it connects to the institute’s database to answer questions, generate administrative documents, and automate tasks. With voice interaction and an animated avatar, it offers a human-like experience that improves administrative efficiency.',
 
-    video: 'https://trzzhogdlmdumpdkazyu.supabase.co/storage/v1/object/sign/videos/hackathon_talan.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8xNzg5MzlmYi0wNmZlLTQ2YzItOGZkZS1iMGI1YmIxODhjZDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ2aWRlb3MvaGFja2F0aG9uX3RhbGFuLm1wNCIsImlhdCI6MTc2Mjg5MDk2OCwiZXhwIjoxODI1OTYyOTY4fQ.LEsfP0vPzojtLVMWpibHCBlk0SrrW25SuKBEQUwjorE',
+    video: 'https://res.cloudinary.com/dwnt1faqs/video/upload/hackathon_talan_qddv5r.mp4',
     videoThumbnail: '/assets/chatbot.png',
 
     category: 'AI Based' as ProjectCategory,
@@ -148,7 +148,7 @@ const projects = [
   {
     title: '📱 HikeGo',
     description: 'This  application is designed for agencies to facilitate on-site event management. It allows staff to authenticate securely, view event details, and verify participant tickets by scanning QR codes linked to the central reservation database. Lightweight and practical, the app enhances operational efficiency during events, ensuring accurate validation and seamless coordination between agencies and participants.',
-    video: 'https://trzzhogdlmdumpdkazyu.supabase.co/storage/v1/object/sign/videos/mobile_app.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8xNzg5MzlmYi0wNmZlLTQ2YzItOGZkZS1iMGI1YmIxODhjZDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ2aWRlb3MvbW9iaWxlX2FwcC5tcDQiLCJpYXQiOjE3NjI4OTEwMTgsImV4cCI6MTg1NzQ5OTAxOH0.KlWAmBUEi5BHsEu46TEO8hm5qNpkpO0s3dx_iRxufcg',
+    video: 'https://res.cloudinary.com/dwnt1faqs/video/upload/mobile_app_1_wibkz6.mp4',
     videoThumbnail: '/assets/mobile.png',
 
     category: 'Mobile Apps' as ProjectCategory,
