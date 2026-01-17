@@ -208,6 +208,7 @@ export function ProjectCard({ title, description, image, video, videoThumbnail, 
                     <video
                         src={video}
                         controls
+                        controlsList="nodownload"
                         autoPlay
                         muted
                         playsInline
